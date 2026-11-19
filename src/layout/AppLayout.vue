@@ -12,7 +12,13 @@ function toggleSidebar() {
 </script>
 
 <template>
-  <div class="min-h-screen flex flex-col bg-[#F8FAFC] text-slate-800 antialiased selection:bg-orange-100 selection:text-orange-900">
+  <!-- ================= TING MANAGEMENT FULLSCREEN (PERSIS tingsubscription.netlify.app) ================= -->
+  <div v-if="route.name === 'subscriptions'" class="w-full min-h-screen">
+    <router-view></router-view>
+  </div>
+
+  <!-- ================= HORUS SUPPORT PORTAL (client.horus.co.id) ================= -->
+  <div v-else class="min-h-screen flex flex-col bg-[#F8FAFC] text-slate-800 antialiased selection:bg-orange-100 selection:text-orange-900">
     
     <!-- ================= TOP NAVBAR ================= -->
     <header class="h-16 bg-white border-b border-slate-200 px-4 md:px-6 flex items-center justify-between sticky top-0 z-40 select-none">

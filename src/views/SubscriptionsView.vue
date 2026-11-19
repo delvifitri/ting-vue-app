@@ -152,7 +152,7 @@ function printReceipt() {
 
 <template>
   <!-- WRAPPER UTAMA: TAMPILAN PERSIS TING MANAGEMENT (tingsubscription.netlify.app) -->
-  <div class="ting-management-container -m-3 md:-m-6 lg:-m-8 min-h-screen flex flex-col bg-[#F8FAFC] text-slate-800 antialiased font-sans">
+  <div class="ting-management-container min-h-screen flex flex-col bg-[#F8FAFC] text-slate-800 antialiased font-sans">
     
     <!-- ================= TOP NAVBAR TING MANAGEMENT ================= -->
     <header class="h-16 bg-white border-b border-slate-200 px-4 md:px-6 flex items-center justify-between sticky top-0 z-40 select-none">
