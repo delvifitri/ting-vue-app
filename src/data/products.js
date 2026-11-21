@@ -40,8 +40,8 @@ export const products = [
   {
     id: 'ting-connect',
     name: 'TING Connect (Open API)',
-    category: 'ai',
-    categoryLabel: 'OTOMASI & API',
+    category: 'integration',
+    categoryLabel: 'API',
     categoryBadgeClass: 'bg-indigo-50 text-indigo-700 border-indigo-200',
     iconEmoji: '🔌',
     gradientClass: 'from-indigo-600 to-purple-500',
@@ -78,8 +78,8 @@ export const products = [
   {
     id: 'ting-billing',
     name: 'TING Billing (Invoicing)',
-    category: 'enterprise',
-    categoryLabel: 'ENTERPRISE',
+    category: 'finance',
+    categoryLabel: 'BILLING',
     categoryBadgeClass: 'bg-emerald-50 text-emerald-700 border-emerald-200',
     iconEmoji: '🧾',
     gradientClass: 'from-emerald-600 to-teal-400',
@@ -97,7 +97,7 @@ export const products = [
   {
     id: 'ting-docs',
     name: 'TING Docs (Panduan & Bantuan)',
-    category: 'enterprise',
+    category: 'docs',
     categoryLabel: 'DOCS',
     categoryBadgeClass: 'bg-amber-50 text-amber-700 border-amber-200',
     iconEmoji: '📚',
